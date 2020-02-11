@@ -30,4 +30,4 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 source "https://rubygems.org"
 
-gem "github-pages", "~> VERSION", group: :jekyll_plugins
+gem "github-pages", "~> 240", group: :jekyll_plugins
