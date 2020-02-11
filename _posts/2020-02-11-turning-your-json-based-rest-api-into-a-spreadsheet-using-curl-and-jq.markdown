@@ -6,6 +6,6 @@ categories: update cli
 ---
 
 
-{% highlight ruby %}
+{% highlight shell %}
 brew install jq
 {% endhighlight %}
