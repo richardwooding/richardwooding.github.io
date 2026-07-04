@@ -53,7 +53,7 @@
           <a class="gl-btn primary" href="#projects">See my projects</a>
           <a class="gl-btn ghost" href="https://github.com/richardwooding">GitHub</a>
         </div>
-        <p class="gl-hint">8 open-source projects · all live, all documented</p>
+        <p class="gl-hint">15 open-source projects · all live, all documented</p>
       </div>
       <div class="gl-term">
         <div class="bar">
@@ -66,9 +66,9 @@
 <span class="hd">name      </span>Richard Wooding
 <span class="hd">focus     </span>developer tools · libraries
 <span class="hd">langs     </span>Go · Rust
-<span class="hd">projects  </span><span class="n">8</span> open-source · <span class="ok">all shipped</span>
+<span class="hd">projects  </span><span class="n">15</span> open-source · <span class="ok">all shipped</span>
 <span class="pr">$</span> richard --projects | wc -l
-<span class="n">8</span></pre>
+<span class="n">15</span></pre>
       </div>
     </div>
   </section>
@@ -86,7 +86,7 @@
     <div class="gl-wrap">
       <p class="gl-eyebrow">open source</p>
       <h2>Projects.</h2>
-      <p class="gl-lede" style="margin-top:14px">Eight things I've built and shipped — each with a live site and source on GitHub.</p>
+      <p class="gl-lede" style="margin-top:14px">Fifteen things I've built and shipped — each with a live site and source on GitHub.</p>
 
       <div class="gl-grid feat" style="margin-top:26px">
 
@@ -144,6 +144,55 @@
             <p>A comprehensive Model Context Protocol server for querying the City of Cape Town's open-data layers — wards, heritage, water quality, and more.</p>
             <ul class="gl-badges" aria-label="tags"><li class="gl-lang">Go</li><li class="gl-lang">MCP</li></ul>
             <p class="gl-hint" style="margin-top:14px"><a href="https://richardwooding.github.io/capetown-opendata-mcp/">Live ↗</a> · <a href="https://github.com/richardwooding/capetown-opendata-mcp">Code ↗</a></p>
+          </article>
+
+          <article class="gl-card">
+            <h3>treesitter-symbols</h3>
+            <p>Cross-language code-symbol extraction for 17 languages — definitions, imports, call edges, and complexity from one parse (Go via go/ast, the rest via tree-sitter).</p>
+            <ul class="gl-badges" aria-label="tags"><li class="gl-lang">Go</li><li class="gl-lang">library</li></ul>
+            <p class="gl-hint" style="margin-top:14px"><a href="https://richardwooding.github.io/treesitter-symbols/">Live ↗</a> · <a href="https://github.com/richardwooding/treesitter-symbols">Code ↗</a></p>
+          </article>
+
+          <article class="gl-card">
+            <h3>go-coupling</h3>
+            <p>Package coupling metrics (Ca/Ce/instability) and circular-dependency detection across 9 ecosystems — from imports you already extracted, no parser needed.</p>
+            <ul class="gl-badges" aria-label="tags"><li class="gl-lang">Go</li><li class="gl-lang">static analysis</li></ul>
+            <p class="gl-hint" style="margin-top:14px"><a href="https://richardwooding.github.io/go-coupling/">Live ↗</a> · <a href="https://github.com/richardwooding/go-coupling">Code ↗</a></p>
+          </article>
+
+          <article class="gl-card">
+            <h3>c2pa</h3>
+            <p>Pure-Go C2PA / Content Credentials for JPEG &amp; PNG — a fast unverified claim reader for triage, plus full cryptographic validation. No cgo.</p>
+            <ul class="gl-badges" aria-label="tags"><li class="gl-lang">Go</li><li class="gl-lang">provenance</li></ul>
+            <p class="gl-hint" style="margin-top:14px"><a href="https://richardwooding.github.io/c2pa/">Live ↗</a> · <a href="https://github.com/richardwooding/c2pa">Code ↗</a></p>
+          </article>
+
+          <article class="gl-card">
+            <h3>ssrfguard</h3>
+            <p>Prevent SSRF in Go — validate outbound URLs and block internal addresses at dial time, after DNS resolution, so it's robust against DNS rebinding.</p>
+            <ul class="gl-badges" aria-label="tags"><li class="gl-lang">Go</li><li class="gl-lang">security</li></ul>
+            <p class="gl-hint" style="margin-top:14px"><a href="https://richardwooding.github.io/ssrfguard/">Live ↗</a> · <a href="https://github.com/richardwooding/ssrfguard">Code ↗</a></p>
+          </article>
+
+          <article class="gl-card">
+            <h3>hostrate</h3>
+            <p>A per-host rate-limiting http.RoundTripper for Go — being slow to one host never throttles another, and it composes cleanly under other middleware.</p>
+            <ul class="gl-badges" aria-label="tags"><li class="gl-lang">Go</li><li class="gl-lang">HTTP</li></ul>
+            <p class="gl-hint" style="margin-top:14px"><a href="https://richardwooding.github.io/hostrate/">Live ↗</a> · <a href="https://github.com/richardwooding/hostrate">Code ↗</a></p>
+          </article>
+
+          <article class="gl-card">
+            <h3>go-hashset</h3>
+            <p>Hash allow/deny lookup (MD5/SHA-1/SHA-256) for forensics and security — a fast in-memory store or a bbolt-backed one for NSRL-scale sets.</p>
+            <ul class="gl-badges" aria-label="tags"><li class="gl-lang">Go</li><li class="gl-lang">forensics</li></ul>
+            <p class="gl-hint" style="margin-top:14px"><a href="https://richardwooding.github.io/go-hashset/">Live ↗</a> · <a href="https://github.com/richardwooding/go-hashset">Code ↗</a></p>
+          </article>
+
+          <article class="gl-card">
+            <h3>go-sarif</h3>
+            <p>A minimal, zero-dependency SARIF 2.1.0 emitter for Go static-analysis tools — map findings to the document GitHub Code Scanning and other CI ingest.</p>
+            <ul class="gl-badges" aria-label="tags"><li class="gl-lang">Go</li><li class="gl-lang">library</li></ul>
+            <p class="gl-hint" style="margin-top:14px"><a href="https://richardwooding.github.io/go-sarif/">Live ↗</a> · <a href="https://github.com/richardwooding/go-sarif">Code ↗</a></p>
           </article>
 
       </div>
