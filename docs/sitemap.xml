@@ -110,4 +110,8 @@
     <loc>https://richardwooding.github.io/fingerprint/</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://richardwooding.github.io/file-search-on/</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
