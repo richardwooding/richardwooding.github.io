@@ -35,6 +35,10 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://richardwooding.github.io/bggclient/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://richardwooding.github.io/capetown-opendata-mcp/</loc>
     <priority>0.8</priority>
   </url>
