@@ -75,7 +75,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <a class="gl-btn primary" href="#projects">See my projects</a>
           <a class="gl-btn ghost" href="https://github.com/richardwooding">GitHub</a>
         </div>
-        <p class="gl-hint">27 open-source projects · all live, all documented</p>
+        <p class="gl-hint">28 open-source projects · all live, all documented</p>
       </div>
       <div class="gl-term">
         <div class="bar">
@@ -88,9 +88,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <span class="hd">name      </span>Richard Wooding
 <span class="hd">focus     </span>developer tools · libraries
 <span class="hd">langs     </span>Go · Rust · Zig · C# · Java · TypeScript · JavaScript
-<span class="hd">projects  </span><span class="n">27</span> open-source · <span class="ok">all shipped</span>
+<span class="hd">projects  </span><span class="n">28</span> open-source · <span class="ok">all shipped</span>
 <span class="pr">$</span> richard --projects | wc -l
-<span class="n">27</span></pre>
+<span class="n">28</span></pre>
       </div>
     </div>
   </section>
@@ -104,11 +104,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
+  <section class="gl-section" id="demo">
+    <div class="gl-wrap gl-hero-grid">
+      <div>
+        <p class="gl-eyebrow">featured · live demo</p>
+        <h2>Verify Content Credentials, <span class="gl-grad">right here in your browser.</span></h2>
+        <p class="gl-lede" style="margin-top:14px">The c2pa library below, compiled from pure Go to
+          WebAssembly: drop a JPEG or PNG on the page and get the full C2PA validation result —
+          COSE signature, certificate chain, hash bindings, RFC 3161 timestamp — with every §15
+          status code. Nothing is uploaded; your image never leaves the tab.</p>
+        <div class="gl-cta" style="margin-top:22px">
+          <a class="gl-btn primary" href="https://richardwooding.github.io/c2pa-inspector/">Open the inspector</a>
+          <a class="gl-btn ghost" href="https://github.com/richardwooding/c2pa-inspector">Code ↗</a>
+        </div>
+      </div>
+      <div class="gl-term">
+        <div class="bar">
+          <span class="dot" style="background:#ff5f56"></span>
+          <span class="dot" style="background:#ffbd2e"></span>
+          <span class="dot" style="background:#27c93f"></span>
+          <span class="t">c2pa validate</span>
+        </div>
+<pre><span class="pr">$</span> c2pa validate photo.jpg
+<span class="ok">✓</span> claimSignature.validated
+<span class="ok">✓</span> assertion.hashedURI.match <span class="loc">×6</span>
+<span class="ok">✓</span> assertion.dataHash.match
+<span class="ok">✓</span> signingCredential.trusted
+<span class="hd">verified — signed 2024-08-06T21:53:37Z</span>
+<span class="c"># runs as WASM in your tab · nothing uploaded</span></pre>
+      </div>
+    </div>
+  </section>
+
   <section class="gl-section" id="projects">
     <div class="gl-wrap">
       <p class="gl-eyebrow">open source</p>
       <h2>Projects.</h2>
-      <p class="gl-lede" style="margin-top:14px">Twenty-seven things I've built and shipped — each with a live site and source on GitHub.</p>
+      <p class="gl-lede" style="margin-top:14px">Twenty-eight things I've built and shipped — each with a live site and source on GitHub.</p>
 
       <div class="gl-grid feat" style="margin-top:26px">
 
@@ -194,6 +226,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p>Find the code worth refactoring first: fuses git churn × complexity × package coupling into one ranked risk score — composing gitmeta, codemetrics and go-coupling.</p>
             <ul class="gl-badges" aria-label="tags"><li class="gl-lang">Go</li><li class="gl-lang">static analysis</li></ul>
             <p class="gl-hint" style="margin-top:14px"><a class="gl-stretch" href="https://richardwooding.github.io/hotspot/">Website ↗</a> · <a href="https://github.com/richardwooding/hotspot">Code ↗</a></p>
+          </article>
+
+          <article class="gl-card gl-card-link">
+            <h3>c2pa-inspector</h3>
+            <p>Verify C2PA / Content Credentials entirely in your browser — the pure-Go validator compiled to WebAssembly. Drop an image, see every validation status; nothing is uploaded.</p>
+            <ul class="gl-badges" aria-label="tags"><li class="gl-lang">Go</li><li class="gl-lang">WASM</li><li class="gl-lang">live demo</li></ul>
+            <p class="gl-hint" style="margin-top:14px"><a class="gl-stretch" href="https://richardwooding.github.io/c2pa-inspector/">Website ↗</a> · <a href="https://github.com/richardwooding/c2pa-inspector">Code ↗</a></p>
           </article>
 
           <article class="gl-card gl-card-link">

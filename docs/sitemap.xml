@@ -59,6 +59,10 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://richardwooding.github.io/c2pa-inspector/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://richardwooding.github.io/ssrfguard/</loc>
     <priority>0.8</priority>
   </url>
