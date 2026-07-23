@@ -146,4 +146,8 @@
     <loc>https://richardwooding.github.io/patience/</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://richardwooding.github.io/kibitz/</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>

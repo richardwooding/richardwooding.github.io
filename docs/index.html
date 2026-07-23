@@ -107,15 +107,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section class="gl-section" id="demo">
     <div class="gl-wrap gl-hero-grid">
       <div>
-        <p class="gl-eyebrow">featured · live demo</p>
-        <h2>Verify Content Credentials, <span class="gl-grad">right here in your browser.</span></h2>
-        <p class="gl-lede" style="margin-top:14px">The c2pa library below, compiled from pure Go to
-          WebAssembly: drop an image or video — JPEG, PNG, HEIC, AVIF, MP4, MOV — and get the full C2PA validation result —
-          COSE signature, certificate chain, hash bindings, RFC 3161 timestamp — with every §15
-          status code. Nothing is uploaded; your image never leaves the tab.</p>
+        <p class="gl-eyebrow">featured · live</p>
+        <h2>Pull up a chair — <span class="gl-grad">play a friend, end to end.</span></h2>
+        <p class="gl-lede" style="margin-top:14px">kibitz is six games — chess, backgammon,
+          checkers, reversi, Connect Four, and provably-fair Battleship — with chat, over one
+          end-to-end-encrypted session. You get a code phrase like <code>lion-42-maple</code>,
+          a share link, and a QR; a friend joins as your opponent and the rest kibitz. The relay
+          that carries it all can never read a move or a message. 100% Go, WASM in the browser.</p>
         <div class="gl-cta" style="margin-top:22px">
-          <a class="gl-btn primary" href="https://richardwooding.github.io/c2pa-inspector/">Open the inspector</a>
-          <a class="gl-btn ghost" href="https://github.com/richardwooding/c2pa-inspector">Code ↗</a>
+          <a class="gl-btn primary" href="https://kibitz-play.fly.dev" target="_blank" rel="noopener">Play now ↗</a>
+          <a class="gl-btn ghost" href="https://richardwooding.github.io/kibitz/">Site ↗</a>
+          <a class="gl-btn ghost" href="https://github.com/richardwooding/kibitz">Code ↗</a>
         </div>
       </div>
       <div class="gl-term">
@@ -123,15 +125,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class="dot" style="background:#ff5f56"></span>
           <span class="dot" style="background:#ffbd2e"></span>
           <span class="dot" style="background:#27c93f"></span>
-          <span class="t">c2pa validate</span>
+          <span class="t">kibitz</span>
         </div>
-<pre><span class="pr">$</span> c2pa validate photo.jpg
-<span class="ok">✓</span> claimSignature.validated
-<span class="ok">✓</span> assertion.hashedURI.match <span class="loc">×6</span>
-<span class="ok">✓</span> assertion.dataHash.match
-<span class="ok">✓</span> signingCredential.trusted
-<span class="hd">verified — signed 2024-08-06T21:53:37Z</span>
-<span class="c"># runs as WASM in your tab · nothing uploaded</span></pre>
+<pre><span class="pr">$</span> open a table
+your phrase   <span class="ok">lion-42-maple</span>   <span class="loc">share link · QR ready</span>
+
+<span class="hd">&gt;&gt;</span> ada joined — she's Black, you're White
+<span class="hd">chat</span>  ada: en passant? really?
+<span class="hd">chess</span> e5 → move 4                <span class="ok">verified ✓</span>
+
+<span class="c"># the relay only ever saw opaque frames</span></pre>
       </div>
     </div>
   </section>
@@ -140,9 +143,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="gl-wrap">
       <p class="gl-eyebrow">open source</p>
       <h2>Projects.</h2>
-      <p class="gl-lede" style="margin-top:14px">Thirty-four things I've built and shipped — each with a live site and source on GitHub.</p>
+      <p class="gl-lede" style="margin-top:14px">Thirty-five things I've built and shipped — each with a live site and source on GitHub.</p>
 
       <div class="gl-grid feat" style="margin-top:26px">
+
+          <article class="gl-card gl-card-link">
+            <h3>kibitz</h3>
+            <p>Play a friend end to end — chess, backgammon, checkers, reversi, Connect Four, and provably-fair Battleship, with chat, over one encrypted session paired by a code phrase through a relay that can't read a thing.</p>
+            <ul class="gl-badges" aria-label="tags"><li class="gl-lang">Go</li><li class="gl-lang">WASM</li><li class="gl-lang">crypto</li></ul>
+            <p class="gl-hint" style="margin-top:14px"><a class="gl-stretch" href="https://richardwooding.github.io/kibitz/">Website ↗</a> · <a href="https://kibitz-play.fly.dev">Play ↗</a> · <a href="https://github.com/richardwooding/kibitz">Code ↗</a></p>
+          </article>
 
           <article class="gl-card gl-card-link">
             <h3>gloam</h3>
