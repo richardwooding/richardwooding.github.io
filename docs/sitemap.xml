@@ -154,4 +154,8 @@
     <loc>https://richardwooding.github.io/llmkit/</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://richardwooding.github.io/agentkit/</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
